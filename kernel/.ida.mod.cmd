@@ -1,0 +1,1 @@
+cmd_/home/xinyu/Project/pcie-driver/src/20260318/kernel/ida.mod := printf '%s\n'   ida_driver.o ida_dma.o | awk '!x[$$0]++ { print("/home/xinyu/Project/pcie-driver/src/20260318/kernel/"$$0) }' > /home/xinyu/Project/pcie-driver/src/20260318/kernel/ida.mod

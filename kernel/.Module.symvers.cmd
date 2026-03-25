@@ -1,0 +1,1 @@
+cmd_/home/xinyu/Project/pcie-driver/src/20260318/kernel/Module.symvers := sed 's/ko$$/o/' /home/xinyu/Project/pcie-driver/src/20260318/kernel/modules.order | scripts/mod/modpost -m -a  -o /home/xinyu/Project/pcie-driver/src/20260318/kernel/Module.symvers -e -i Module.symvers   -T -
