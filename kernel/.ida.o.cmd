@@ -1,1 +1,0 @@
-cmd_/home/xinyu/Project/pcie-driver/src/20260318/kernel/ida.o := ld -m elf_x86_64 -z noexecstack --no-warn-rwx-segments   -r -o /home/xinyu/Project/pcie-driver/src/20260318/kernel/ida.o @/home/xinyu/Project/pcie-driver/src/20260318/kernel/ida.mod 
