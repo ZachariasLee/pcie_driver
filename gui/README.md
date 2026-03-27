@@ -57,3 +57,7 @@ python3 demo.py
 ## 数据来源
 
 监控界面通过 `mmap` 只读方式访问 `/dev/shm/ida_preview_N`，数据由 `ida_app` 每完成一条 Swath 后写入。界面以 200ms（5Hz）轮询 `seq` 字段，`seq` 变化时才刷新图像。
+
+## fpga测试
+
+已通过官方驱动加载fpga设备，通过qdma读取0x0开始1g位于ddr图像数据后显示于界面中。图见test_img.png的ch1。
